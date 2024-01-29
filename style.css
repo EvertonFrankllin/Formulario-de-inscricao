@@ -1,0 +1,212 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    font-size: 12px;
+}   
+.container{
+    align-items: center;
+    background:linear-gradient(45deg,#08273b, #1e92ff ) ;
+    margin: 50px auto auto auto ;
+    width: 450px;
+    height: 700px;
+    display: flex;
+    border-radius: 8px;
+    padding-top: 15px;
+}
+
+.paragrafo{
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;    
+    color: white;
+    padding: 10px;
+    margin-left: 120px;
+    margin-bottom: 620px;
+    background:linear-gradient(90deg,#5517da, #054077);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.paragrafo p{
+    padding: 5px;
+    font-weight: bold;
+}
+input{
+    color: white;
+    font-size: 12px;
+
+}
+
+.formulario{
+    border:  2px solid #a39eeb;
+    background-color: #08273b00;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nome{
+    padding: 10px;
+    background-color: #08273b00;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.nome::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.email{
+    padding: 10px;
+    background-color: #08273b00;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.email::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.phone{
+    padding: 10px;
+    background-color: #08273b00;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.phone::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.sexo{
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.sexo p{
+    margin-bottom: 20px;
+    color: white;
+}
+.sexo label{
+    margin-bottom: 8px;
+    display: block;
+    padding-left: 13px;
+   color: white;
+}
+input[type="radio"]{
+    cursor: pointer;
+}
+
+.nascimento{
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.nascimento span{
+    margin-right: 10px;
+    color: white;
+    
+}
+.data{
+    position:absolute;
+    box-shadow: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+input[type="date"]{
+    height: 30px;
+    padding-left: 10px;
+    color: #000000;
+    border: none;
+}
+
+.cidade{
+    padding: 10px;
+    background-color: #08273b00;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.cidade::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.estado{
+    padding: 10px;
+    background-color: #08273b00;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.estado::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.endereço{
+    padding: 10px;
+    background-color: #08273b00;
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.endereço::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.botao{
+    cursor:pointer;
+    width: 70%;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #0557c7, #5517da);
+    align-items: center;
+    border: none;
+    height: 40px;
+    margin:  30px 0px 0px 60px ;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

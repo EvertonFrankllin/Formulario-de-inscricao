@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Imagens/depoimento.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+    <p class="paragrafo">Formulário do cliente</p><!--paragrafo-->
+        
+         <form class="formulario">
+            <input class="nome" type="text" placeholder="Nome completo">
+            <input class="email" type="email" placeholder="E-mail">
+            <input class="phone" type="tel" placeholder="Telefone">
+            <div class="sexo">
+                <P>Sexo:</P>
+                <label>
+                    <input class="femi" type="radio" name="GR" value="Feminino"> Feninino
+                </label>
+
+                <label>
+                    <input class="Macho" type="radio" name="GR" value="Masculino"> Masculino
+                </label>
+
+                <label>
+                    <input class="naoSei" type="radio" name="GR" value="Prefiro não responder"> Prefiro não responder
+                </label>
+            </div><!--sexo-->
+
+            <div class="nascimento">
+                <span>Data de nascimento:</span>
+                <input class="data" type="date">
+            </div><!--nascimento-->
+
+            <input class="cidade" type="text" placeholder="cidade" >
+            <input class="estado" type="text" placeholder="Estado">
+            <input class="endereço" type="text" placeholder="Endereço">
+
+            <input class="botao" type="submit" value="Enviar">
+         </form>
+    </div><!--container-->
+</body>
+</html>
